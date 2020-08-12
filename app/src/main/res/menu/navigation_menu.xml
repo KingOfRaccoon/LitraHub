@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+    <item
+        android:title="Лента произведений"
+        android:checked="false"
+        android:id="@+id/lenta"/>
+    <item
+        android:title="Сообщения"
+        android:checked="false"
+        android:id="@+id/message"/>
+    <item
+        android:title="Написать рассказ"
+        android:checked="false"
+        android:id="@+id/addStory"/>
+    </group>
+    <item
+        android:title="Настройки">
+        <menu>
+            <item
+                android:title="Настройки"
+                android:checked="false"
+                android:id="@+id/settings"/>
+            <item
+                android:title="Профиль"
+                android:checked="false"
+                android:id="@+id/profile"/>
+        </menu>
+    </item>
+</menu>
